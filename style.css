@@ -1,0 +1,37 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border;
+}
+.clearfix::after {
+	content:"";
+	display:block;
+	clear: both;
+}
+header {
+	height: 70px;
+	background: #ec715f;
+}
+.headline {
+	width: 1024px;
+	margin: 0 auto;
+}
+.headline-img {
+	float: left;
+	height: 70px;
+}
+.nav-list {
+	float: right;
+	height: 70px;
+	text-align: center;
+	color: #fafafa;
+	font-size: 16px;
+}
+.nav-list-item {
+	list-style: none;
+	display: inline-block;
+	margin: 0 30px;
+	height: 70px;
+	vertical-align: middle;
+	line-height: 70px;
+}
