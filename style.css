@@ -56,3 +56,55 @@ header {
 	color: #fafafa;
 	padding-top: 10px;
 }
+.portfolio {
+	width: 100%;
+	height: 100%;
+	background-color: #eceff1;
+	padding: 90px 0;
+}
+.portfolio-box {
+	width: 920px;
+	text-align: center;
+	margin: 0 auto;
+}
+.portfolio-logo {
+	font-size: 32px;
+	color: #000000;
+	position:relative;
+	display: inline-block;
+	padding-bottom: 8px;
+}
+.portfolio-logo:before {
+	content: "";
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	display: inline-block;
+	width: 70px;
+	height: 3px;
+	background-color: #ec715f;
+	-moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.portfolio-text {
+	margin: 30px 0;
+	font-size: 16px
+	color: #000000;
+}
+.portfolio-img {
+	margin:0 auto;
+	width:930px;
+}
+.portfolio-img-item1, .portfolio-img-item2, .portfolio-img-item3, .portfolio-img-item4, .portfolio-img-item5, .portfolio-img-item6{
+	float: left;
+	width: 300px;
+	height: 250px;
+}
+.portfolio-img-item1,.portfolio-img-item2,.portfolio-img-item4,.portfolio-img-item5 {
+	margin-right: 10px;
+}
+.portfolio-img-item1,.portfolio-img-item2,.portfolio-img-item3 {
+	margin-bottom: 10px;
+}
