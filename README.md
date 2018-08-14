@@ -4,4 +4,4 @@ visual finish
 portfolio finish
 feature finish
 profile finish
-footer start
+footer finish
