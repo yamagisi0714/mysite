@@ -321,7 +321,6 @@ footer {
 
 
 
-
 @media screen and (max-width:767px) {
 	header {
 		width: 90%;
@@ -434,10 +433,18 @@ footer {
 	}
 	.border-line {
 		  position: absolute;
+
 		  left: 5px;
 		  height: 2px;
 		  width: 24px;
 		  background-color: white;
+
+
+		  height: 2px;
+		  width: 24px;
+		  background-color: white;
+
+
 		  display: inline-block;
 		  box-sizing: border-box;
 
