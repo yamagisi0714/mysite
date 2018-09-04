@@ -366,7 +366,11 @@ footer {
 		width: 100%;
 	}
 	.feature-img-item1, .feature-img-item2, .feature-img-item3 {
+		width: 100%;
 		margin: 0 auto;
+	}
+	.feature-img-item1, .feature-img-item2 {
+		margin-bottom: 10px;
 	}
 	.profile-contents{
 		width: 100%;
