@@ -178,7 +178,7 @@ header {
 .feature-img-item2{
 	margin: 0 10px;
 }
-.feature-img-item i{
+.fa-code, .fa-desktop, .fa-cogs{
 	font-size: 60px;
 }
 .fas-logo {
@@ -249,12 +249,85 @@ footer {
 	vertical-align: middle;
 	line-height: 60px;
 }
+.contact-contents {
+	width: 800px;
+	margin: 0 auto;
+	padding: 90px 0;
+}
+.contact-contents-headline {
+	text-align: center;
+}
+.contact-logo {
+	font-size: 32px;
+	color: #000000;
+	position:relative;
+	display: inline-block;
+	padding-bottom: 8px;
+}
+.contact-text {
+	margin: 30px 0;
+	font-size: 16px;
+	color: #000000;
+}
+.contact-date-box {
+	margin : 0 auto;
+}
+.contact-date {
+	float: left;
+	width: 50%;
+}
+.contact-icon {
+	float: left;
+	width: 50%;
+}
+.box-logo {
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+.contact-date-box {
+	margin:auto;
+}
+.fa-facebook, .fa-twitter, .fa-instagram {
+	font-size: 50px;
+	margin-right: 20px;
+}
+
+
+.contact-date-box {
+	width:150px;
+	margin:0 auto;
+}
+
+.icon-box{
+	width:250px;
+	margin:0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width:767px) {
 	header {
 		width: 90%;
 		margin: 0 auto;
 		height: 50px;
+		position: relative;
 	}
 	.headline {
 		width: 100%;
@@ -305,9 +378,79 @@ footer {
 	.profile-img-contents {
 		width: 100%;
 	}
+	.contact-contents {
+		width: 100%;
+	}
+	.contact-box {
+		text-align: center;
+		float: none;
+	}
+	.contact-date {
+		width: 100%;
+	}
+	.contact-icon {
+		width: 100%;
+		margin: 0 auto;
+	}
 	footer {
 		width: 90%;
 		margin: 0 auto;
+	}
+	.nav-list {
+		display:none;
+	}
+	.border-box {
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 44px;
+		height: 44px;
+		margin: 3px 8px;
+	}
+	.nav-border {
+		border: 5px solid white;
+		width: 100%;
+		height: 100%;
+		position: relative;
+		display: inline-block;
+	}
+	.nav-border1 {
+		top: 10px;
+		content:"";
+		display:block;
+		border-top: 2px solid white;
+	}
+	.nav-border2 {
+		top: 15px;
+		content:"";
+		display:block;
+		border-: 2px solid white;
+	}
+	.nav-border3 {
+		bottom:10px;
+		content:"";
+		display:block;
+		border-top: 2px solid white;
+	}
+	.border-line {
+		  position: absolute;
+
+		  height: 2px;
+		  width: 24px;
+		  background-color: white;
+
+		  display: inline-block;
+		  box-sizing: border-box;
+
+}
+	.border-line:nth-of-type(1) {
+  		top: 10px;
+	}
+	.border-line:nth-of-type(2) {
+  		top: 15px;
+	}
+	.border-line:nth-of-type(3) {
+  		bottom: 10px;
 	}
 }
 

@@ -6,4 +6,4 @@ feature finish
 profile finish
 footer finish
 responsive start
-contact start
+contact finish
